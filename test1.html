@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>bhartendu</title>
+<style type="text/css">
+$border : #e74c3c;
+$font: normal 300 18px "Roboto", sans-serif;
+$border-radius : 4px;
+
+body {
+  background: #34495e;
+  font: $font;
+}
+
+#menu-nav {
+  max-width: 1000px;
+  margin: 130px auto;
+  background-color: #ecf0f1;
+  border-radius: $border-radius;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+// navigation bar
+#navigation-bar {
+  ul {
+    border-radius: $border-radius;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    width: 20%;
+    
+    &:hover a::before {
+      right: 0;
+      left: 0;
+    }
+  }
+  
+  a {
+    color: #848484;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      color: $border;
+    }
+    
+    &::before {
+      content: "";
+      transition: all 0.4s ease-in-out;
+      position: absolute;
+      right: 50%;
+      left: 50%;
+      bottom: 0;
+      height: 2px;
+      background-color: $border;
+    }
+    
+    &:hover::before {
+      right: 0;
+      left: 0;
+    }
+  }
+  
+  span {
+    display: block;
+  }
+}
+
+// search bar
+#search-bar {
+  display: none;
+  border-bottom: 3px solid $border;
+  border-radius: $border-radius;
+}
+
+form {
+  width: 90%;
+  margin: 10px auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px 5%;
+  text-align: center;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: $border-radius;
+  border: 1px solid $border;
+  font: $font;
+  color: #888;
+  transition: box-shadow 0.5s ease;
+
+  &:focus, &:active {
+    box-shadow: 0 0 10px $border;
+  }
+}
+
+
+</style>
+<script type="text/javascript" >
+var c=!1;
+
+function hideandshow(e) {
+  var elem = $(e);
+  c ? elem.slideUp(300) : elem.slideDown(300);
+  c=!c;
+}
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+<div id="menu-nav">
+  <div id="navigation-bar">
+    <ul>
+      <li><a href="#"><i class="fa fa-home"></i><span>Home</span></a></li>
+      <li><a href="#"><i class="fa fa-cogs"></i><span>Widgets</span></a></li>
+      <li><a href="#"><i class="fa fa-user"></i><span>About</span></a></li>
+      <li><a href="#"><i class="fa fa-book"></i><span>Contact</span></a></li>
+      <li><a href="#" onclick="hideandshow('#search-bar')"><i class="fa fa-search"></i><span>Search</span></a></li>
+    </ul>
+  </div>
+  
+  <div id="search-bar">
+    <form>
+      <input type="text" placeholder="Enter your query and hit Enter" />
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

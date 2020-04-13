@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>bhartendu</title>
+<script type="text/javascript" src="jquery1.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.achievementlist').click(function(){
+    $(this).find('ul').toggleClass('open');
+  });
+});
+</script>
+
+<link rel="stylesheet" href="slider.css">
+<link rel="stylesheet" href="testsucss.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="one2.css" />
+
+<style>
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+.contentchange {
+        width: 310px;
+        font-size: 36px;
+        line-height: 40px;
+        color: #ecf0f1;
+        margin: 1em auto 0;
+    }
+    .staticallo {
+        float: left;
+        overflow: hidden;
+        height: 40px;
+    }
+    p.paraonedes {
+        display: inline;
+        float: left;
+        margin: 0;
+        color: #ffff9e;
+    }
+    ul.unorlistone {
+        margin-top: 0;
+        padding-left: 130px;
+        text-align: left;
+        list-style: none;
+        animation: 6s linear 0s normal none infinite changeisthere;
+    }
+    ul.unorlistone li.listoneit {
+        color: #E7D84B;
+        line-height: 40px;
+        margin: 0;
+    }
+    .uniqueone	{
+
+  
+   
+   animation: changeColor 2s ease-in infinite;
+}
+em {font-family: -webkit-pictograph; font-weight: bold;}
+
+@-webkit-keyframes changeColor {
+  0% {color: #64566A;}
+  25% {color: red;}
+  50% {color: black;}
+  75% {color: red;}
+  100% {color: brown;}
+}
+    @keyframes changeisthere {
+        0% { margin-top: 0; }
+        15% { margin-top: 0; }
+        25% { margin-top: -40px; }
+        40% { margin-top: -40px; }
+        50% { margin-top: -80px; }
+        65% { margin-top: -80px; }
+        75% { margin-top: -40px; }
+        85% { margin-top: -40px; }
+        100% { margin-top: 0; }
+    }
+
+
+
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+
+body	{
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	animation: Gradient1 15s ease infinite;
+}
+@keyframes Gradient1 {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+ html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bgimg-1 {
+    background-image: url('onepic.jpeg');
+    min-height: 100%;
+}
+
+
+.bgimg-2 {
+    background-image: url("fivepic.jpeg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("contact1.jpg");
+    min-height: 400px;
+}
+
+.bk-wide {letter-spacing: 10px;}
+.bk-hover-opacity {cursor: pointer;}
+
+
+@media only screen and (max-device-width: 1600px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+}
+
+
+
+
+
+
+.css-typing p.typeone {
+  border-right: .150em solid orange;
+  font-family: "monospace";
+  
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing p.typeone:nth-child(1) {
+  width: 75em;
+  
+  
+  animation: type 3.5s steps(40, end), blink .075s step-end infinite;
+ 
+
+  animation-fill-mode: forwards;
+}
+
+.css-typing p.typeone:nth-child(2) {
+  width: 80em;
+  opacity: 0;
+ 
+  animation: type2 3.5s steps(40, end),blink .05s step-end infinite;
+  
+  animation-delay: 3.5s;
+  
+  animation-fill-mode: forwards;
+}
+
+.css-typing p.typeone:nth-child(3) {
+  width: 80em;
+  opacity: 0;
+ 
+  animation: type3 3.5s steps(40, end), blink .05s step-end infinite;
+  
+  animation-delay: 7s;
+ 
+  animation-fill-mode: forwards;
+}
+
+
+
+.css-typing p.typeone:nth-child(4) {
+  width: 69em;
+  opacity: 0;
+  
+  animation: type3 3.5s steps(40, end), blink .5s step-end infinite alternate;
+  
+  animation-delay: 10.5s;
+  
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+   border: none;
+  }
+}
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+.slides1 {
+    padding: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides1 * {
+    user-select: none;
+}
+
+.slides1 input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav1 label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav1 label { opacity: 0.5; }
+
+.nav1 label:hover { opacity: 1; }
+
+.nav1 .nexttwo { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav1 label { display: block; }
+
+.nav1-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav1-dots .nav1-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav1-dots .nav1-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav1-dots label#img-dot-1,
+input#img-2:checked ~ .nav1-dots label#img-dot-2,
+input#img-3:checked ~ .nav1-dots label#img-dot-3,
+input#img-4:checked ~ .nav1-dots label#img-dot-4,
+input#img-5:checked ~ .nav1-dots label#img-dot-5,
+input#img-6:checked ~ .nav1-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="one4.css" />
+<link rel="stylesheet" type="text/css" href="one3.css" />
+</head>
+<body>
+
+
+<div class="top1">
+  <div class="bar1" id="myNavbar">
+    <a class="bar1-item button1 bk-hover-black bk-hide-medium bk-hide-large bk-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="bar1-item button1">HOME</a>
+    <a href="#about" class="bar1-item button1 bk-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="bar1-item button1 bk-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="bar1-item button1 bk-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="bar1-item button1 bk-hide-small bk-right bk-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+
+  <div id="navDemo" class="bar1-block bk-white bk-hide bk-hide-large bk-hide-medium">
+    <a href="#about" class="bar1-item button1" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="bar1-item button1" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="bar1-item button1" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="bar1-item button1">SEARCH</a>
+  </div>
+</div>
+
+
+<div class="bgimg-1 bk-display-container bk-opacity-min" id="home">
+  <div class="bk-display-middle" style="white-space:nowrap;">
+    <span class="bk-center bk-padding-large bk-black bk-xlarge bk-wide bk-animate-opacity">I
+    <span class="bk-hide-small">am&nbsp;</span>Bhartendu!
+     </span>
+  </div>
+</div>
+  <div class="contentchange" style="position: absolute;top: 200px; left: 750px;">
+        <div class="staticallo">
+            <p  class="paraonedes uniqueone">I am a</p>
+            <ul class="unorlistone uniqueone">
+                <li class="listoneit uniqueone">STUDENT</li>
+                <li class="listoneit uniqueone">CODER</li>
+                <li class="listoneit uniqueone">Magician</li>
+            </ul>
+        </div>
+    </div>
+<!-- Container (About Section) -->
+<div class="bk-content bk-container bk-padding-64" id="about">
+  <h3 class="bk-center">ABOUT ME</h3>
+  <p class="bk-center"><em>I love coding!</em></p>
+ <div class="css-typing">
+  <p class="typeone"  style="margin: 0;">
+  I am a very hardworking and dedicated student of COMPUTER SCIENCE AND ENGINEERING. I have always been curious and fascinated about 
+  </p>
+  <p class="typeone" style="margin: 0;">
+    computers. I thoroughly enjoy the core computer science subjects. Amongst them Data Structures and Algorithms, Operating Systems, Database 
+  </p>
+  <p class="typeone" style="margin: 0;">
+    Management Systems, and Programming Languages are my favorite. Other than these CS intensive subjects, Maths and Discrete Structures are
+  </p>
+  <p  class="typeone" style="margin: 0;">my all time-favorite. I am also always curious by the intricacies of Computer Networks and Electronics and Communication. 
+  </p>
+</div>
+
+ </p>
+  <div class="bk-row">
+    <div class="bk-col m6 bk-center bk-padding-large">
+      <p><b><i class="fa fa-user bk-margin-right"></i>Bhartendu Kumar</b></p><br>
+      <img src="photo.JPG" class="bk-round bk-image bk-opacity bk-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="bk-col m6 bk-hide-small bk-padding-large">
+      <p><center style="margin=0;"><b>I Love to do:<br></b></center><br style="margin: 0;">
+      
+     <div id="wowslider-container0" style="position: relative;top: 17px;">
+	<div class="ws_images" style="position: relative;top: 17px;"><ul class="sliderulid" >
+		<li class="sliderliid"><img class="sliderimdid" src="data0/images/soccernew.jpg" alt="Soccer" title="Soccer" id="wows0_0"/>I play Defensive Midfielder</li>
+		<li class="sliderliid"><img class="sliderimdid" src="data0/images/detectivenew.jpg" alt="Detective Novels" title="Detective Novels" id="wows0_1"/>I am a great fan of Sherlock Holmes. </li>
+		<li class="sliderliid"><img class="sliderimdid" src="data0/images/chemistrynew.jpg" alt="Chemistry " title="Chemistry " id="wows0_2"/>I read chemistry Books in my freetime.</li>
+		<li class="sliderliid"><img class="sliderimdid" src="data0/images/oc1.jpg" alt="Social Networking" title="Social Networking" id="wows0_3"/>MITx, Havardx, Standford Learning</li>
+		<li class="sliderliid"><a  class="slideraid" href="http://wowslider.net"><img class="sliderimdid" src="data0/images/sto1.png" alt="bootstrap carousel" title="Online Blogs" id="wows0_4"/></a>Get and Give Help.</li>
+		<li class="sliderliid"><img class="sliderimdid" src="data0/images/cp.jpg" alt="Competitive programming" title="Competitive programming" id="wows0_5"/>I am addicted to it.</li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a class="slideraid" classhref="#" title="Soccer"><span class="sliderspanid"><img class="sliderimdid" src="data0/tooltips/soccernew.jpg" alt="Soccer"/>1</span></a>
+		<a class="slideraid"  href="#" title="Detective Novels"><span  class="sliderspanid"><img class="sliderimdid" src="data0/tooltips/detectivenew.jpg" alt="Detective Novels"/>2</span></a>
+		<a  class="slideraid" href="#" title="Chemistry "><span class="sliderspanid"><img class="sliderimdid" src="data0/tooltips/chemistrynew.jpg" alt="Chemistry "/>3</span></a>
+		<a  class="slideraid" href="#" title="Social Networking"><span  class="sliderspanid"><img class="sliderimdid" src="data0/tooltips/oc1.jpg" alt="Social Networking"/>4</span></a>
+		<a  class="slideraid" href="#" title="Online Blogs"><span  class="sliderspanid"><img class="sliderimdid" src="data0/tooltips/sto1.png" alt="Online Blogs"/>5</span></a>
+		<a  class="slideraid" href="#" title="Competitive programming"><span  class="sliderspanid"><img class="sliderimdid" src="data0/tooltips/cp.jpg" alt="Competitive programming"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a class="slideraid"  href="http://wowslider.net">javascript</a> </div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="wowslider.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+ <center>   <h1 style="margin: 0;padding: 0; "><b>
+  <span id="Achievementsuniquecode" style="  font-family: Times New Roman, cursive;">A</span>
+  <span id="Achievementsuniquecode">C</span>
+  <span id="Achievementsuniquecode">H</span>
+  <span id="Achievementsuniquecode">I</span>
+  <span id="Achievementsuniquecode">E</span>
+  <span id="Achievementsuniquecode">V</span>
+  <span id="Achievementsuniquecode">E</span>
+  <span id="Achievementsuniquecode">M</span>
+    <span id="Achievementsuniquecode">E</span>
+  <span id="Achievementsuniquecode">N</span>
+  <span id="Achievementsuniquecode">T</span>
+  <span id="Achievementsuniquecode">S</span>
+  </b></center>
+</h1>
+     <div id="Achievementsbackground-img"></div>
+    <div id="hhhxxxcontaine">
+
+      <div id="achievementlist-1" class="achievementlist">
+        <div class="achievementicon"></div>
+        <div class="achievementitle">College</div><ul class="uliu">
+          <li style="  margin-top: 15px;">C.G.P.A. - 8.3 </li>
+          <li style="margin-top: 5px;">Actively participates in Cultural Fests</li>
+          <li style="margin-top: 5px;">Soccer Team Captain</li>
+           <li style="margin-top: 5px;">Founding Member of IT Club</li>
+        
+        </ul>
+      </div>
+
+
+      <div id="achievementlist-1" class="achievementlist">
+        <div class="achievementicon"></div>
+        <div class="achievementitle">Heritage India Quiz</div><ul class="uliu" >
+         <li style="  margin-top: 15px;">Consolation Prize in National Level Quiz</li>
+          <li style="margin-top: 5px;">Chief Guest- Honorable President</li>
+          <li style="margin-top: 5px;">Venue - Rashpati Bhawan</li>
+           <li style="margin-top: 5px;">Words of Appreciation by Smt. Kiran Bedi </li>
+        
+        </ul>
+      </div>
+
+      <div id="achievementlist-1" class="achievementlist">
+        <div class="achievementicon"></div>
+        <div class="achievementitle">ISRO COMPETITION</div><ul class="uliu">
+        <li style="  margin-top: 15px;">FIFTH Place as Team</li>
+          <li style="margin-top: 5px;">National Level Competition</li>
+          <li style="margin-top: 5px;">Web Technologies</li>
+          
+        </ul>
+      </div>
+
+      
+      <div id="achievementlist-1" class="achievementlist">
+        <div class="achievementicon"></div>
+        <div class="achievementitle">Moral Science All India Competition</div><ul class="uliu">
+         <li style="  margin-top: 15px;">Organized by - Arya Samaj</li>
+          <li style="margin-top: 5px;">All INDIA inter D.A.V.</li>
+          <li style="margin-top: 5px;">AIR-2</li>
+           <li style="margin-top: 5px;">Rs 1500 cash Prize</li>
+        
+        </ul>
+      </div>
+  
+    </div>
+      
+      </p>
+    </div>
+  </div>
+  <p class="bk-large bk-center bk-padding-16">My Academic Report Card:</p>
+  <p class="bk-wide"><i class="fa fa-square-o"></i>Graduation</p>
+  <div class="bk-light-grey">
+    <div class="bk-container bk-padding-small bk-dark-grey bk-center" style="width:85%">85%</div>
+  </div>
+  <p class="bk-wide"><i class="fa fa-check-square-o"></i>Intermediate</p>
+  <div class="bk-light-grey">
+    <div class="bk-container bk-padding-small bk-dark-grey bk-center" style="width:90%">90%</div>
+  </div>
+  <p class="bk-wide"><i class="fa fa-check-square-o"></i>Metriculation</p>
+  <div class="bk-light-grey">
+    <div class="bk-container bk-padding-small bk-dark-grey bk-center" style="width:98%">98%</div>
+  </div>
+</div>
+<center><h3>B.Tech till now :</h3></center>
+<div class="bk-row bk-center bk-dark-grey bk-padding-16">
+  <div class="bk-quarter bk-section">
+    <span class="bk-xlarge">I-sem</span><br>
+    82%
+  </div>
+  <div class="bk-quarter bk-section">
+    <span class="bk-xlarge">II-sem</span><br>
+    83.5%
+  </div>
+  <div class="bk-quarter bk-section">
+    <span class="bk-xlarge">III-sem</span><br>
+    85%
+  </div>
+  <div class="bk-quarter bk-section">
+    <span class="bk-xlarge">IV-sem</span><br>
+    86%
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 bk-display-container bk-opacity-min">
+  <div class="bk-display-middle">
+    <span class="bk-xxlarge bk-text-white bk-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="bk-content bk-container bk-padding-64" id="portfolio">
+  <h3 class="bk-center">Programming Languages I Know !</h3>
+  <p class="bk-center"><em>(Hover on the images for Details.)</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="bk-row-padding bk-center">
+    <div class="bk-col m3">
+      <img src="c.jpg" style="width:100%" onclick="onClick(this)" class="bk-hover-opacity" alt="C Programming language"  height="200" width="250">
+    </div>
+
+    <div class="bk-col m3">
+      <img src="js.png" style="width:100%" onclick="onClick(this)" class="bk-hover-opacity" alt="javascript" height="200" width="250">
+    </div>
+
+    <div class="bk-col m3">
+      <img src="cs.jpg" style="width:100%" onclick="onClick(this)" class="bk-hover-opacity" alt="C Sharp"  height="200" width="250">
+    </div>
+
+    <div class="bk-col m3">
+      <img src="java1.jpg" style="width:100%" onclick="onClick(this)" class="bk-hover-opacity" alt="Java"  height="200" width="250">
+    </div>
+  </div>
+  <pre>             C                     JavaScript                 C-Sharp                    Java   </pre>
+  <p class="bk-center"><em>&nbsp;</em></p>
+
+ <h3 class="bk-center">Technologies, I Know !</h3>
+  <div class="bk-row-padding bk-center bk-section">
+    <div class="bk-col m3">
+      <img src="/bkimages/p5.jpg" style="width:100%" onclick="onClick(this)" class="bk-hover-opacity" alt="The mist">
+    </div>
+
+    <div class="bk-col m3">
+      <img src="/bkimages/p6.jpg" style="width:100%" onclick="onClick(this)" class="bk-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="bk-col m3">
+      <img src="/bkimages/p7.jpg" style="width:100%" onclick="onClick(this)" class="bk-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="bk-col m3">
+      <img src="/bkimages/p8.jpg" style="width:100%" onclick="onClick(this)" class="bk-hover-opacity" alt="Sailing">
+    </div>
+    <button class="button1 bk-padding-large bk-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="bk-modal bk-black" onclick="this.style.display='none'">
+  <span class="button1 bk-large bk-black bk-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="bk-modal-content bk-animate-zoom bk-center bk-transparent bk-padding-64">
+    <img id="img01" class="bk-image">
+    <p id="caption" class="bk-opacity bk-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 bk-display-container bk-opacity-min">
+  <div class="bk-display-middle">
+     <span class="bk-xxlarge bk-text-white bk-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="bk-content bk-container bk-padding-64" id="contact">
+  <h3 class="bk-center">WHERE I CAN BE FOUND!</h3>
+  <p class="bk-center"><em>I'd love your feedback!</em></p>
+
+  <div class="bk-row bk-padding-32 bk-section">
+    <div class="bk-col m4 bk-container">
+      <img src="door.jpg" class="bk-image bk-round" style="width:100%;height: 220px ;margin-top: 21px;">
+    </div>
+    <div class="bk-col m8 bk-panel">
+      <div class="bk-large bk-margin-bottom">
+        <i class="fa fa-map-marker fa-fw bk-hover-text-black bk-xlarge bk-margin-right"></i>Faridabad, Haryana<br>
+        <i class="fa fa-phone fa-fw bk-hover-text-black bk-xlarge bk-margin-right"></i> Phone: +91 8860640195<br>
+        <i class="fa fa-envelope fa-fw bk-hover-text-black bk-xlarge bk-margin-right"></i> Email: bharatcse@gmail.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="" target="_blank">
+        <div class="bk-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="bk-half">
+            <input class="bk-input bk-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="bk-half">
+            <input class="bk-input bk-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="bk-input bk-border" type="text" placeholder="Message" required name="Message">
+        <button class="button1 bk-black bk-right bk-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bk-center bk-black bk-padding-64 bk-opacity bk-hover-opacity-off">
+  <a href="#home" class="button1 bk-light-grey"><i class="fa fa-arrow-up bk-margin-right"></i>To the top</a>
+  <div class="bk-xlarge bk-section">
+    <i class="fa fa-facebook-official bk-hover-opacity"></i>
+    <i class="fa fa-instagram bk-hover-opacity"></i>
+    <i class="fa fa-snapchat bk-hover-opacity"></i>
+    <i class="fa fa-pinterest-p bk-hover-opacity"></i>
+    <i class="fa fa-twitter bk-hover-opacity"></i>
+    <i class="fa fa-linkedin bk-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="" title="bk.CSS" target="_blank" class="bk-hover-text-green">bk.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "bar1" + " bk-card" + " bk-animate-top" + " bk-white";
+    } else {
+        navbar.className = navbar.className.replace(" bk-card bk-animate-top bk-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("bk-show") == -1) {
+        x.className += " bk-show";
+    } else {
+        x.className = x.className.replace(" bk-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
